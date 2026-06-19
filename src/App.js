@@ -870,7 +870,7 @@ function Footer({ lang }) {
                 <Icon.facebook className="w-5 h-5" />
               </a>
               <a href={`https://wa.me/${CONFIG.business.whatsapp}`} aria-label="WhatsApp" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#D4A373] hover:text-[#3a2a1f] transition-colors">
-                <Icon.whatsapp className="w-5 h-5" />
+                <Icon.Whatsapp className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -893,7 +893,7 @@ function WhatsAppButton() {
       aria-label="Chat on WhatsApp"
       className="fixed bottom-6 right-6 z-40 w-14 h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-lg hover:scale-110 hover:shadow-xl transition-all focus:outline-none focus:ring-2 focus:ring-[#25D366] focus:ring-offset-2"
     >
-      <Icon.whatsapp className="w-7 h-7" />
+      <Icon.Whatsapp className="w-7 h-7" />
     </a>
   );
 }
