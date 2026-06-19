@@ -379,7 +379,7 @@ function Header({ lang, setLang, activeSection }) {
               aria-label="Toggle menu"
               aria-controls="mobile-menu"
             >
-              {mobileOpen ? <Icon.Close ClassName="w-6 h-6" /> : <Icon.Menu ClassName="w-6 h-6" />}
+              {mobileOpen ? <Icon.Close className="w-6 h-6" /> : <Icon.Menu className="w-6 h-6" />}
             </button>
           </div>
         </div>
@@ -649,7 +649,7 @@ function FAQ({ lang }) {
                     className="w-full flex items-center justify-between gap-4 px-5 py-4 text-left font-medium text-[#3a2a1f] hover:bg-[#D4A373]/5 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#8B4513] focus-visible:ring-inset"
                   >
                     <span>{item.q[lang]}</span>
-                    <Icon.chevron className={`w-5 h-5 flex-shrink-0 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`} />
+                    <Icon.Chevron className={`w-5 h-5 flex-shrink-0 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`} />
                   </button>
                 </h3>
                 <div
@@ -798,27 +798,27 @@ function Contact({ lang }) {
               <h3 className="font-serif text-2xl text-[#3a2a1f] mb-5">{CONFIG.contact.hours.title[lang]}</h3>
               <ul className="space-y-3 text-[#3a2a1f]/80">
                 <li className="flex items-center justify-between gap-4 pb-3 border-b border-[#D4A373]/20">
-                  <span className="flex items-center gap-2"><Icon.clock className="w-4 h-4 text-[#8B4513]" /> {CONFIG.contact.hours.weekdays[lang]}</span>
+                  <span className="flex items-center gap-2"><Icon.Clock className="w-4 h-4 text-[#8B4513]" /> {CONFIG.contact.hours.weekdays[lang]}</span>
                   <span className="font-medium">{CONFIG.contact.hours.time1}</span>
                 </li>
                 <li className="flex items-center justify-between gap-4 pb-3 border-b border-[#D4A373]/20">
-                  <span className="flex items-center gap-2"><Icon.clock className="w-4 h-4 text-[#8B4513]" /> {CONFIG.contact.hours.saturday[lang]}</span>
+                  <span className="flex items-center gap-2"><Icon.Clock className="w-4 h-4 text-[#8B4513]" /> {CONFIG.contact.hours.saturday[lang]}</span>
                   <span className="font-medium">{CONFIG.contact.hours.time2}</span>
                 </li>
                 <li className="flex items-center justify-between gap-4">
-                  <span className="flex items-center gap-2"><Icon.clock className="w-4 h-4 text-[#8B4513]" /> {CONFIG.contact.hours.sunday[lang]}</span>
+                  <span className="flex items-center gap-2"><Icon.Clock className="w-4 h-4 text-[#8B4513]" /> {CONFIG.contact.hours.sunday[lang]}</span>
                   <span className="font-medium">{CONFIG.contact.hours.time3}</span>
                 </li>
               </ul>
               <div className="mt-6 space-y-2 text-sm text-[#3a2a1f]/80">
                 <a href={`tel:${CONFIG.business.phone}`} className="flex items-center gap-2 hover:text-[#8B4513]">
-                  <Icon.phone className="w-4 h-4 text-[#8B4513]" /> {CONFIG.business.phone}
+                  <Icon.Phone className="w-4 h-4 text-[#8B4513]" /> {CONFIG.business.phone}
                 </a>
                 <a href={`mailto:${CONFIG.business.email}`} className="flex items-center gap-2 hover:text-[#8B4513]">
-                  <Icon.mail className="w-4 h-4 text-[#8B4513]" /> {CONFIG.business.email}
+                  <Icon.Mail className="w-4 h-4 text-[#8B4513]" /> {CONFIG.business.email}
                 </a>
                 <p className="flex items-start gap-2">
-                  <Icon.map className="w-4 h-4 text-[#8B4513] mt-0.5 flex-shrink-0" />
+                  <Icon.Map className="w-4 h-4 text-[#8B4513] mt-0.5 flex-shrink-0" />
                   <span>{CONFIG.business.address[lang]}</span>
                 </p>
               </div>
@@ -864,10 +864,10 @@ function Footer({ lang }) {
             <h4 className="font-serif text-[#FFF8EE] mb-4">{lang === 'pt' ? 'Redes sociais' : 'Social'}</h4>
             <div className="flex gap-3">
               <a href={CONFIG.business.social.instagram} aria-label="Instagram" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#D4A373] hover:text-[#3a2a1f] transition-colors">
-                <Icon.instagram className="w-5 h-5" />
+                <Icon.Instagram className="w-5 h-5" />
               </a>
               <a href={CONFIG.business.social.facebook} aria-label="Facebook" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#D4A373] hover:text-[#3a2a1f] transition-colors">
-                <Icon.facebook className="w-5 h-5" />
+                <Icon.Facebook className="w-5 h-5" />
               </a>
               <a href={`https://wa.me/${CONFIG.business.whatsapp}`} aria-label="WhatsApp" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#D4A373] hover:text-[#3a2a1f] transition-colors">
                 <Icon.Whatsapp className="w-5 h-5" />
