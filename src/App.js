@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 /* =========================================================
    CONFIG — All editable text in a single file (PT + EN)
@@ -379,7 +379,7 @@ function Header({ lang, setLang, activeSection }) {
               aria-label="Toggle menu"
               aria-controls="mobile-menu"
             >
-              {mobileOpen ? <Icon.close className="w-6 h-6" /> : <Icon.menu className="w-6 h-6" />}
+              {mobileOpen ? <Icon.close ClassName="w-6 h-6" /> : <Icon.menu ClassName="w-6 h-6" />}
             </button>
           </div>
         </div>
