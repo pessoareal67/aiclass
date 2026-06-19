@@ -180,7 +180,7 @@ function useIntersectionObserver(options = {}) {
     }, { threshold: 0.12, ...options });
     observer.observe(el);
     return () => observer.disconnect();
-  }, []);
+  }, [options]);
 
   return { ref, isVisible };
 }
