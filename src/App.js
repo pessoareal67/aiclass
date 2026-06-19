@@ -379,7 +379,7 @@ function Header({ lang, setLang, activeSection }) {
               aria-label="Toggle menu"
               aria-controls="mobile-menu"
             >
-              {mobileOpen ? <Icon.close ClassName="w-6 h-6" /> : <Icon.menu ClassName="w-6 h-6" />}
+              {mobileOpen ? <Icon.Close ClassName="w-6 h-6" /> : <Icon.Menu ClassName="w-6 h-6" />}
             </button>
           </div>
         </div>
