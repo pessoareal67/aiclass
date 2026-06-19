@@ -299,6 +299,7 @@ function Header({ lang, setLang, activeSection }) {
     const handleScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
+    export default handleScroll
   }, []);
 
   useEffect(() => {
