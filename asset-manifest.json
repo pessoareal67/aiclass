@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/aiclass/static/css/main.e6c13ad2.css",
+    "main.js": "/aiclass/static/js/main.21b69d00.js",
+    "index.html": "/aiclass/index.html",
+    "main.e6c13ad2.css.map": "/aiclass/static/css/main.e6c13ad2.css.map",
+    "main.21b69d00.js.map": "/aiclass/static/js/main.21b69d00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.21b69d00.js"
+  ]
+}
