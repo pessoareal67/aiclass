@@ -1,8 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-/* =========================================================
-   CONFIG — All editable text in a single file (PT + EN)
-   ========================================================= */
 const CONFIG = {
   business: {
     name: 'Vila Mariana Bakery & Café',
