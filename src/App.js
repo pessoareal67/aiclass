@@ -463,7 +463,7 @@ function Highlights({ lang }) {
         <h2 id="highlights-title" className="sr-only">Why choose us</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {CONFIG.highlights.map((h, i) => {
-            const IconComp = Icon[h.icon];
+            const IconComp = Icon[h.icon.charAt(0).toUpperCase() + h.icon.slice(1)];
             return (
               <article key={i} className="p-6 md:p-8 rounded-2xl bg-white border border-[#D4A373]/30 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                 <div className="w-12 h-12 rounded-xl bg-[#D4A373]/20 text-[#8B4513] flex items-center justify-center mb-5">
