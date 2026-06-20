@@ -210,7 +210,7 @@ function useSEO(lang) {
    ICONS (inline SVG, accessible)
    ========================================================= */
 const Icon = {
-  wheat: (props) => (
+  Wheat: (props) => (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" {...props} aria-hidden="true">
       <path d="M2 22 16 8" /><path d="M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 1 0 4.94L5 19l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z" />
       <path d="M7.47 8.53 9 7l1.53 1.53a3.5 3.5 0 0 1 0 4.94L9 15l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z" />
@@ -218,62 +218,62 @@ const Icon = {
       <path d="M20 2h2v2a4 4 0 0 1-4 4h-2V6a4 4 0 0 1 4-4Z" />
     </svg>
   ),
-  sun: (props) => (
+  Sun: (props) => (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" {...props} aria-hidden="true">
       <circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
     </svg>
   ),
-  leaf: (props) => (
+  Leaf: (props) => (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" {...props} aria-hidden="true">
       <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19.2 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10.2 10Z" /><path d="M2 21c0-3 1.85-5.36 5.08-6" />
     </svg>
   ),
-  menu: (props) => (
+  Menu: (props) => (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" {...props} aria-hidden="true">
       <path d="M3 6h18M3 12h18M3 18h18" />
     </svg>
   ),
-  close: (props) => (
+  Close: (props) => (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" {...props} aria-hidden="true">
       <path d="M18 6 6 18M6 6l12 12" />
     </svg>
   ),
-  whatsapp: (props) => (
+  Whatsapp: (props) => (
     <svg viewBox="0 0 24 24" fill="currentColor" {...props} aria-hidden="true">
       <path d="M20.52 3.48A11.93 11.93 0 0 0 12.04 0C5.46 0 .12 5.34.12 11.92c0 2.1.55 4.14 1.6 5.95L0 24l6.3-1.66a11.92 11.92 0 0 0 5.74 1.46h.01c6.58 0 11.92-5.34 11.92-11.92 0-3.18-1.24-6.17-3.45-8.4ZM12.05 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.87 9.87 0 0 1-1.51-5.25c0-5.46 4.44-9.9 9.9-9.9 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.9 7c0 5.46-4.44 9.88-9.9 9.88Zm5.42-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.11 3.22 5.1 4.51.71.31 1.27.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35Z" />
     </svg>
   ),
-  instagram: (props) => (
+  Instagram: (props) => (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" {...props} aria-hidden="true">
       <rect x="2" y="2" width="20" height="20" rx="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
     </svg>
   ),
-  facebook: (props) => (
+  Facebook: (props) => (
     <svg viewBox="0 0 24 24" fill="currentColor" {...props} aria-hidden="true">
       <path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.89h-2.33v6.99A10 10 0 0 0 22 12Z" />
     </svg>
   ),
-  chevron: (props) => (
+  Chevron: (props) => (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props} aria-hidden="true">
       <path d="m6 9 6 6 6-6" />
     </svg>
   ),
-  map: (props) => (
+  Map: (props) => (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" {...props} aria-hidden="true">
       <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" /><circle cx="12" cy="10" r="3" />
     </svg>
   ),
-  clock: (props) => (
+  Clock: (props) => (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" {...props} aria-hidden="true">
       <circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2" />
     </svg>
   ),
-  mail: (props) => (
+  Mail: (props) => (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" {...props} aria-hidden="true">
       <rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-10 6L2 7" />
     </svg>
   ),
-  phone: (props) => (
+  Phone: (props) => (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" {...props} aria-hidden="true">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92Z" />
     </svg>
@@ -376,7 +376,7 @@ function Header({ lang, setLang, activeSection }) {
               aria-label="Toggle menu"
               aria-controls="mobile-menu"
             >
-              {mobileOpen ? <Icon.close className="w-6 h-6" /> : <Icon.menu className="w-6 h-6" />}
+              {mobileOpen ? <Icon.Close className="w-6 h-6" /> : <Icon.Menu className="w-6 h-6" />}
             </button>
           </div>
         </div>
@@ -867,7 +867,7 @@ function Footer({ lang }) {
                 <Icon.Facebook className="w-5 h-5" />
               </a>
               <a href={`https://wa.me/${CONFIG.business.whatsapp}`} aria-label="WhatsApp" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#D4A373] hover:text-[#3a2a1f] transition-colors">
-                <Icon.whatsapp className="w-5 h-5" />
+                <Icon.Whatsapp className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -890,7 +890,7 @@ function WhatsAppButton() {
       aria-label="Chat on WhatsApp"
       className="fixed bottom-6 right-6 z-40 w-14 h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-lg hover:scale-110 hover:shadow-xl transition-all focus:outline-none focus:ring-2 focus:ring-[#25D366] focus:ring-offset-2"
     >
-      <Icon.whatsapp className="w-7 h-7" />
+      <Icon.Whatsapp className="w-7 h-7" />
     </a>
   );
 }
